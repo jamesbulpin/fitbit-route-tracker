@@ -1,0 +1,104 @@
+<svg>
+  <svg id="sectionmain" x="0" y="0" width="100%" height="100%" visibility="visible">
+    <text class="title">Route Progress</text>
+
+    <rect x="0" y="50" width="100%" height="65" id="routerect" pointer-events="visible" />
+    <text class="label" id="routelabel" x="10" y="70" pointer-events="visible">Route</text>
+    <text class="value" id="route" x="100%-10" y="110" text-length="20" pointer-events="visible" font-size="32">-</text>
+
+    <text class="label" x="10" y="153">Dist. to go</text>
+    <text class="value" id="dtg" x="100%-10" y="170" fill="greenyellow">-</text>
+
+    <rect x="0" y="193" width="100%" height="65" id="ttgrect" pointer-events="visible" />
+    <text class="label" id="ttglabel1" x="10" y="213" pointer-events="visible">Time to go</text>
+    <text class="label" id="ttglabel" x="10" y="230" text-length="16" pointer-events="visible"></text>
+    <text class="value" id="ttg" x="100%-10" y="230" fill="yellow" pointer-events="visible">-</text>
+
+    <text class="label" x="10" y="273">ETA</text>
+    <text class="value" id="eta" x="100%-10" y="290" fill="cyan">-</text>
+  </svg>
+
+  <svg id="sectionpace" x="0" y="0" width="100%" height="100%" visibility="hidden">
+    <rect x="0" y="0" width="100%" height="100%" fill="#808080"/>
+    <svg x="0%+5" y="0%+5" width="25%-10" height="25%-10" class="pacerect">
+      <rect id="pacerect10" class="pacerectrect">
+        <text id="pacetext10" class="pacetext">10</text>
+      </rect>
+    </svg>
+    <svg x="25%+5" y="0%+5" width="25%-10" height="25%-10" class="pacerect">
+      <rect id="pacerect10_25" class="pacerectrect">
+        <text id="pacetext10_25" class="pacetext">10.25</text>
+      </rect>
+    </svg>
+    <svg x="50%+5" y="0%+5" width="25%-10" height="25%-10" class="pacerect">
+      <rect id="pacerect10_5" class="pacerectrect">
+        <text id="pacetext10_5" class="pacetext">10.5</text>
+      </rect>
+    </svg>
+    <svg x="75%+5" y="0%+5" width="25%-10" height="25%-10" class="pacerect">
+      <rect id="pacerect11" class="pacerectrect">
+        <text id="pacetext11" class="pacetext">11</text>
+      </rect>
+    </svg>
+    <svg x="0%+5" y="25%+5" width="25%-10" height="25%-10" class="pacerect">
+      <rect id="pacerect11_5" class="pacerectrect">
+        <text id="pacetext11_5" class="pacetext">11.5</text>
+      </rect>
+    </svg>
+    <svg x="25%+5" y="25%+5" width="25%-10" height="25%-10" class="pacerect">
+      <rect id="pacerect12" class="pacerectrect">
+        <text id="pacetext12" class="pacetext">12</text>
+      </rect>
+    </svg>
+    <svg x="50%+5" y="25%+5" width="25%-10" height="25%-10" class="pacerect">
+      <rect id="pacerect13" class="pacerectrect">
+        <text id="pacetext13" class="pacetext">13</text>
+      </rect>
+    </svg>
+    <svg x="75%+5" y="25%+5" width="25%-10" height="25%-10" class="pacerect">
+      <rect id="pacerect14" class="pacerectrect">
+        <text id="pacetext14" class="pacetext">14</text>
+      </rect>
+    </svg>
+    <svg x="0%+5" y="50%+5" width="25%-10" height="25%-10" class="pacerect">
+      <rect id="pacerect15" class="pacerectrect">
+        <text id="pacetext15" class="pacetext">15</text>
+      </rect>
+    </svg>
+    <svg x="25%+5" y="50%+5" width="25%-10" height="25%-10" class="pacerect">
+      <rect id="pacerect16" class="pacerectrect">
+        <text id="pacetext16" class="pacetext">16</text>
+      </rect>
+    </svg>
+    <svg x="50%+5" y="50%+5" width="25%-10" height="25%-10" class="pacerect">
+      <rect id="pacerect17" class="pacerectrect">
+        <text id="pacetext17" class="pacetext">17</text>
+      </rect>
+    </svg>
+    <svg x="75%+5" y="50%+5" width="25%-10" height="25%-10" class="pacerect">
+      <rect id="pacerect18" class="pacerectrect">
+        <text id="pacetext18" class="pacetext">18</text>
+      </rect>
+    </svg>
+    <svg x="0%+5" y="75%+5" width="25%-10" height="25%-10" class="pacerect">
+      <rect id="pacerect19" class="pacerectrect">
+        <text id="pacetext19" class="pacetext">19</text>
+      </rect>
+    </svg>
+    <svg x="25%+5" y="75%+5" width="25%-10" height="25%-10" class="pacerect">
+      <rect id="pacerect20" class="pacerectrect">
+        <text id="pacetext20" class="pacetext">20</text>
+      </rect>
+    </svg>
+    <svg x="50%+5" y="75%+5" width="25%-10" height="25%-10" class="pacerect">
+      <rect id="pacerect25" class="pacerectrect">
+        <text id="pacetext25" class="pacetext">25</text>
+      </rect>
+    </svg>
+    <svg x="75%+5" y="75%+5" width="25%-10" height="25%-10" class="pacerect">
+      <rect id="pacerect30" class="pacerectrect">
+        <text id="pacetext30" class="pacetext">30</text>
+      </rect>
+    </svg>
+  </svg>
+</svg>

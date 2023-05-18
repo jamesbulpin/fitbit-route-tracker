@@ -1,0 +1,46 @@
+.defaultText {
+  font-size: 32;
+  font-family: System-Regular;
+  font-weight: regular;
+  text-length: 32;
+}
+
+.title {
+  x: 50%;
+  y: 40;
+  fill: red;
+  font-size: 40;
+  text-anchor: middle;
+}
+
+.label {
+  fill: white;
+  font-size: 20;
+  text-anchor: start;
+}
+
+.value {
+  fill: white;
+  font-size: 40;
+  text-anchor: end;
+  text-length: 8;
+}
+
+.pacerect text {
+  x: 50%;
+  y: 50%+12;
+  fill: white;
+  font-size: 24;
+  text-anchor: middle;
+  font-weight: bold;
+  pointer-events: visible;
+}
+
+.pacerect rect {
+  x: 0;
+  y: 0;
+  width: 100%;
+  height: 100%;
+  fill: black;
+  pointer-events: visible;
+}
